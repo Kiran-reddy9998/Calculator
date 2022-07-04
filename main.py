@@ -75,7 +75,8 @@ btn_mul = Button(root, text="*", padx=36, bg="pink", pady=10, font=('Arial', 14)
 btn_div = Button(root, text="/", padx=36, bg="pink", pady=10, font=('Arial', 14), command=lambda: calc('div', '/'))
 btn_equal = Button(root, text="=", padx=33, pady=47, bg="light green", font=('Arial', 14), command=equal)
 btn_clear = Button(root, text="clear", padx=74, bg="orange", fg='black', pady=10, font=('Arial', 14), command=clear)
-# buttons place
+
+# placing buttons
 
 btn_0.grid(row=4, column=0, padx=2, pady=10)
 btn_1.grid(row=3, column=0, padx=2, pady=10)
